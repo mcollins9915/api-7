@@ -1,0 +1,16 @@
+<%- include('../partials/header'); %>
+
+<main class="main-single container">
+    <h2 class="main-h2"><%= name %></h2>
+    <section class="section section-single d-flex justify-content-between">
+        <figure class="figure figure-ingredients">
+            <img src="/media/coffee.jpg" alt="title" class="img-fluid">
+            <figcaption class="figcaption">Description: <%= data.description %>
+            <figcaption class="figcaption">Ingredients: <%= data.ingredients[0] %>
+
+            </figcaption>
+
+            </figcaption>
+        </figure>
+    </section>
+</main>
